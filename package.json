@@ -1,6 +1,6 @@
 {
   "name": "boruto-commands-bot",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "WhatsApp bot pe Baileys cu comenzi interactive și control owner-only",
   "main": "index.js",
   "type": "module",
@@ -10,7 +10,7 @@
   "author": "Boruto Team",
   "license": "MIT",
   "dependencies": {
-    "@borutowaileys/library": "^6.12.3",
+    "@borutowaileys/library": "^6.12.4",
     "chalk": "^5.3.0",
     "fs": "^0.0.1-security",
     "pino": "^9.0.0",
