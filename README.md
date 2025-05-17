@@ -6,7 +6,7 @@ Errors with the pairing code have been fixed, if you received errors in other bo
 
 # 🦖 Bot Comandsss - WhatsApp Bot
 
-Un bot puternic pentru a trimite mesaje pe whatsapp cu comenzi exact când vrei tu după numărul tău de telefon 
+A powerful bot to spam whatsapp after your own phone number, use at your own risk, be careful when suspending the number  
 
 ---
 
