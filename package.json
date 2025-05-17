@@ -1,6 +1,6 @@
 {
   "name": "boruto-commands-bot",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Powerful WhatsApp bot built with waileys for sending messages via commands, owner-only controlled.",
   "main": "index.js",
   "type": "module",
