@@ -1,117 +1,122 @@
-```
-███████╗██╗  ██╗██╗    ██╗ █████╗ ██████╗ ███████╗████████╗
-██╔════╝██║  ██║██║    ██║██╔══██╗██╔══██╗██╔════╝╚══██╔══╝
-█████╗  ███████║██║ █╗ ██║███████║██████╔╝█████╗     ██║   
-██╔══╝  ██╔══██║██║███╗██║██╔══██║██╔══██╗██╔══╝     ██║   
-██║     ██║  ██║╚███╔███╔╝██║  ██║██║  ██║███████╗   ██║   
-╚═╝     ╚═╝  ╚═╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝   
-```
 
-╔════════════════════════════╗
-║      whatsapp-bot script   ║
-╚════════════════════════════╝
+```markdown
+███████╗██╗  ██╗██╗    ██╗ █████╗ ██████╗ ███████╗████████╗  
+██╔════╝██║  ██║██║    ██║██╔══██╗██╔══██╗██╔════╝╚══██╔══╝  
+█████╗  ███████║██║ █╗ ██║███████║██████╔╝█████╗     ██║     
+██╔══╝  ██╔══██║██║███╗██║██╔══██║██╔══██╗██╔══╝     ██║     
+██║     ██║  ██║╚███╔███╔╝██║  ██║██║  ██║███████╗   ██║     
+╚═╝     ╚═╝  ╚═╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝     
+
+╔════════════════════════════╗  
+║     whatsapp-bot script    ║  
+╚════════════════════════════╝  
 
 # 🦖 Bot Comandsss - WhatsApp Bot
 
-Un bot puternic pentru a trimite mesaje pe whatsapp cu comenzi exact când vrei tu după numărul tău de telefon 
+A powerful bot that allows you to send scheduled messages on WhatsApp using commands triggered directly by your phone number.
 
 ---
 
-## 🚀 Link GitHub
+## 🚀 GitHub Link
 
 [https://github.com/gyovannyvpn123/bot-comandsss](https://github.com/gyovannyvpn123/bot-comandsss)
 
 ---
 
-## 📋 Cerințe
+## 📋 Requirements
 
-- **Node.js** v16+ și **npm**
+- **Node.js** v16+ and **npm**
 - **Git**
-- **Bash** (script de instalare)
-- **Termux** (pentru Android)
-- Conexiune internet activă
+- **Bash** (for the installation script)
+- **Termux** (for Android)
+- An active internet connection
 
 ---
 
-## 🛠️ Instalare
+## 🛠️ Installation
 
-### 🔹 Pe PC (Linux, macOS, Windows+WSL)
+### 🔹 On PC (Linux, macOS, Windows + WSL)
 ```bash
-# Clonează repo
+# Clone the repository
 git clone https://github.com/gyovannyvpn123/bot-comandsss.git
 cd bot-comandsss
 
-# Instalează dependențele
+# Install dependencies
 npm install
-npm install @whiskeysockets/baileys
+npm install @borutowaileys/library
 
-# Pornește botul
+# Start the bot
 npm start
 ```
 
-> **Notă:** Poți folosi și scriptul de instalare (pe Linux/macOS):
+> **Note:** You can also use the installation script (for Linux/macOS):
 ```bash
 chmod +x install.sh
 ./install.sh
 ```
 
-### 🔹 Pe Android (Termux)
+### 🔹 On Android (Termux)
 ```bash
-# Actualizează și instalează pachete
+# Update your packages and install necessary ones
 pkg update -y && pkg upgrade -y
 pkg install git nodejs jq -y
 
-# Clonează repo și intră în folder
+# Clone the repository and enter the folder
 git clone https://github.com/gyovannyvpn123/bot-comandsss.git
 cd bot-comandsss
 
-# Dă permisiuni și rulează scriptul de instalare
+# Grant permissions and run the installation script
 chmod +x install.sh
 ./install.sh
 ```
 
 ---
 
-## 🤖 Utilizare
+## 🤖 Usage
 
-Odată ce botul este pornit și conectat la WhatsApp, scrie una dintre următoarele comenzi în chat:
+Once the bot is up and connected to WhatsApp, send one of the following commands in the chat:
 
-| Comandă        | Descriere                                 |
-| -------------- | ----------------------------------------- |
-| `/start1 @tagnumber      | Pornește răspunsurile botului             |
-| `/stop`        | Oprește botul / resetează sesiunea        |
+| Command             | Description                              |
+| ------------------- | ---------------------------------------- |
+| `/start1 @tagnumber`| Starts the bot's responses               |
+| `/stop`             | Stops the bot / resets the session       |
 
-> Poți extinde lista de comenzi direct în `index.js` după nevoile tale.
+> You can extend the list of commands directly in `index.js` to suit your needs.
 
 ---
 
-## ⚙️ Configurație
+## ⚙️ Configuration
 
-- **Fișier de sesiune / token**: dacă folosești autentificare personalizată, creează un fișier `.env` în rădăcina proiectului:
-  ```
+- **Session File / Token:**  
+  If you are using custom authentication, create a `.env` file in the project's root directory:
+  ```env
   SESSION_FILE_NAME=session.json
   ```
-- **Administratori**: contactează BORUTO VPN pentru drepturi de admin.
+
+- **Administrators:**  
+  Contact BORUTO VPN for admin rights.
 
 ---
 
-## 🤝 Contribuții
+## 🤝 Contributions
 
-Pull requests și issues sunt binevenite! Pentru întrebări, deschide un issue sau contactează-ne direct.
+Pull requests and issues are welcome! For any questions, please open an issue or contact us directly.
 
 ---
 
-## 📄 Licență
+## 📄 License
 
-Acest proiect este licențiat sub licența MIT. Vezi fișierul [LICENSE](LICENSE) pentru detalii.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 📫 Contact
 
-- **Admins**: BORUTO VPN
-- **Email**: gyovanyy147@gmail.com
-- phone number 40756469325 
+- **Admins:** BORUTO VPN  
+- **Email:** gyovanyy147@gmail.com  
+- **Phone number:** +40 756469325  
 
+Enter your phone number to receive the pairing code.
+```
 
-Enter your Phone number for pairing code  
+You can now copy the entire text above. Let me know if you need any further modifications!
