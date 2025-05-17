@@ -1,7 +1,7 @@
 {
   "name": "boruto-commands-bot",
   "version": "3.0.0",
-  "description": "WhatsApp bot pe Baileys cu comenzi interactive și control owner-only",
+  "description": "Powerful WhatsApp bot built with Baileys for sending messages via commands, owner-only controlled.",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -9,6 +9,25 @@
   },
   "author": "Boruto Team",
   "license": "MIT",
+  "keywords": [
+    "whatsapp",
+    "whatsapp-bot",
+    "baileys",
+    "whatsapp-tool",
+    "whatsapp-script",
+    "messaging-bot",
+    "boruto",
+    "whatsapp-automation",
+    "bot-whatsapp"
+  ],
+  "homepage": "https://github.com/gyovannyvpn123/bot-comandsss#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gyovannyvpn123/bot-comandsss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gyovannyvpn123/bot-comandsss/issues"
+  },
   "dependencies": {
     "@borutowaileys/library": "^6.12.28",
     "chalk": "^5.3.0",
