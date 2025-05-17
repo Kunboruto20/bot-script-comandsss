@@ -1,4 +1,4 @@
-```
+Errors with the pairing code have been fixed, if you received errors in other bots with the pairing code because the notification from whatsapp "enter the code to pair the new device", This problema It has been solved, use this bot at your own risk, it can suspend your phone number if you spam too quickly, have fun ❤️
 ███████╗██╗  ██╗██╗    ██╗ █████╗ ██████╗ ███████╗████████╗
 ██╔════╝██║  ██║██║    ██║██╔══██╗██╔══██╗██╔════╝╚══██╔══╝
 █████╗  ███████║██║ █╗ ██║███████║██████╔╝█████╗     ██║   
