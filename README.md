@@ -13,7 +13,7 @@
 
 # 🦖 Bot Comandsss - WhatsApp Bot
 
-A powerful bot to send messages on whatsapp with commands exactly when you want by your phone number 
+Un bot puternic pentru a trimite mesaje pe whatsapp cu comenzi exact când vrei tu după numărul tău de telefon 
 
 ---
 
@@ -23,82 +23,81 @@ A powerful bot to send messages on whatsapp with commands exactly when you want 
 
 ---
 
-##  📋 Requirements
+## 📋 Cerințe
 
-- **Node.js** v16+ and **npm**
--**Git**
-- **Bash** (installation script)
-- **Termux** (for Android)
-- Active internet connection 
+- **Node.js** v16+ și **npm**
+- **Git**
+- **Bash** (script de instalare)
+- **Termux** (pentru Android)
+- Conexiune internet activă
+
 ---
 
-## 🛠️ instalation
+## 🛠️ Instalare
 
-### 🔹 On PC (Linux, macOS, Windows+WSL)
+### 🔹 Pe PC (Linux, macOS, Windows+WSL)
 ```bash
-# Clone the repository 
+# Clonează repo
 git clone https://github.com/gyovannyvpn123/bot-comandsss.git
 cd bot-comandsss
 
-# Install dependencies 
+# Instalează dependențele
 npm install
-npm install @borutowaileys/library 
+npm install @whiskeysockets/baileys
 
 # Pornește botul
 npm start
 ```
 
-> Note: You can also use the installation script on mac/os
+> **Notă:** Poți folosi și scriptul de instalare (pe Linux/macOS):
+```bash
 chmod +x install.sh
 ./install.sh
 ```
 
-### 🔹 On Android  (Termux)
+### 🔹 Pe Android (Termux)
 ```bash
-# Update and install packages 
+# Actualizează și instalează pachete
 pkg update -y && pkg upgrade -y
 pkg install git nodejs jq -y
 
-# Clone the repo and enter the folder 
+# Clonează repo și intră în folder
 git clone https://github.com/gyovannyvpn123/bot-comandsss.git
 cd bot-comandsss
 
-# Give permissions and run the installation script 
+# Dă permisiuni și rulează scriptul de instalare
 chmod +x install.sh
 ./install.sh
 ```
 
 ---
 
+## 🤖 Utilizare
 
-## 🤖 Usage
+Odată ce botul este pornit și conectat la WhatsApp, scrie una dintre următoarele comenzi în chat:
 
-Once the bot is turned on and connected to WhatsApp, write one of the following commands in the chat:
-
-| Order | Description |
+| Comandă        | Descriere                                 |
 | -------------- | ----------------------------------------- |
-| '/start1 @tagnumber | Start Bot Responses |
-| '/stop' | Stop Bot/Reset Session |
+| `/start1 @tagnumber      | Pornește răspunsurile botului             |
+| `/stop`        | Oprește botul / resetează sesiunea        |
 
-
-
+> Poți extinde lista de comenzi direct în `index.js` după nevoile tale.
 
 ---
 
-## ⚙️ Configuration 
+## ⚙️ Configurație
 
-
-  
-  
+- **Fișier de sesiune / token**: dacă folosești autentificare personalizată, creează un fișier `.env` în rădăcina proiectului:
   ```
-- *Administrators**: Contact BORUTO VPN for admin rights. 
+  SESSION_FILE_NAME=session.json
+  ```
+- **Administratori**: contactează BORUTO VPN pentru drepturi de admin.
 
 ---
 
-## 🤝 Contributions
+## 🤝 Contribuții
 
-Pull requests and issues are welcome! For questions, open an issue or contact us directly
-
+Pull requests și issues sunt binevenite! Pentru întrebări, deschide un issue sau contactează-ne direct.
 
 ---
 
