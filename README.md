@@ -35,68 +35,42 @@ Git
 
 ---
 
-⚡ Installation
+⚡ Quick Install Commands
 
-Choose your platform:
+Termux (Android)
 
-1. Termux (Android)
-
-# 1. Install basic packages
 pkg update && pkg upgrade -y
 pkg install git nodejs bash -y
-
-# 2. Clone the repo and install dependencies
 git clone https://github.com/gyovannyvpn123/bot-comandsss.git
 cd bot-comandsss
 npm install
-bash install.sh  # Additional setup if needed
-
-# 3. Run the bot
+bash install.sh || true
 node index.js
 
-2. Linux / WSL (PC)
+Linux / WSL
 
-# 1. Clone and install
 git clone https://github.com/gyovannyvpn123/bot-comandsss.git
 cd bot-comandsss
 npm install
-
-# 2. (Optional) Run installation script
-bash install.sh
-
-# 3. Start the bot
+bash install.sh || true
 node index.js
 
-3. Windows (CMD / PowerShell)
+Windows (Git Bash or WSL recommended)
 
-# 1. Clone the repo
 git clone https://github.com/gyovannyvpn123/bot-comandsss.git
 cd bot-comandsss
-
-# 2. Install dependencies
 npm install
-
-# 3. (Optional) Run installer
-bash install.sh  # Requires Git Bash or WSL
-
-# 4. Run the bot
+bash install.sh || true
 node index.js
 
-4. macOS
+macOS
 
-# 1. Make sure you have Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-# 2. Install Node.js & Git
 brew install node git
-
-# 3. Clone and install
 git clone https://github.com/gyovannyvpn123/bot-comandsss.git
 cd bot-comandsss
 npm install
-bash install.sh
-
-# 4. Run the bot
+bash install.sh || true
 node index.js
 
 
