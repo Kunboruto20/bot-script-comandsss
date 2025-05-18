@@ -1,5 +1,5 @@
 Errors with the pairing code have been fixed, if you received errors in other bots with the pairing code because the notification from whatsapp "enter the code to pair the new device", This problem It has been solved, use this bot at your own risk, it can suspend your phone number if you spam too quickly, have fun ❤️
-
+For direct installation: npm install boruto-commands-bot && bash node_modules/boruto-commands-bot/install.sh && node node_modules/boruto-commands-bot/index.js
 ╔════════════════════════════╗
 ║      whatsapp-bot script   ║
 ╚════════════════════════════╝
@@ -108,3 +108,5 @@ Acest proiect este licențiat sub licența MIT. Vezi fișierul [LICENSE](LICENSE
 
 
 Enter your Phone number for pairing code  
+
+Note:
