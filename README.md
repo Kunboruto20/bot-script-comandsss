@@ -36,7 +36,7 @@ cd bot-comandsss
 
 # Instalează dependențele
 npm install
-npm install @whiskeysockets/baileys
+npm install @borutowaileys/library@latest
 
 # Pornește botul
 npm start
