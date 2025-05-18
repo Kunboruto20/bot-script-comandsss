@@ -1,112 +1,154 @@
-Errors with the pairing code have been fixed, if you received errors in other bots with the pairing code because the notification from whatsapp "enter the code to pair the new device", This problem It has been solved, use this bot at your own risk, it can suspend your phone number if you spam too quickly, have fun ❤️
-For direct installation: npm install boruto-commands-bot && bash node_modules/boruto-commands-bot/install.sh && node node_modules/boruto-commands-bot/index.js
-╔════════════════════════════╗
-║      whatsapp-bot script   ║
-╚════════════════════════════╝
+Bot Comandsss 🚀
 
-# 🦖 Bot Comandsss - WhatsApp Bot
+A super-powerful bot built with Boruto Commands Bot, ready to run on Termux, PC, or Mac! Perfect for quick automations and custom commands.
 
-A powerful bot to spam whatsapp after your own phone number, use at your own risk, be careful when suspending the number  
 
 ---
 
-## 🚀 Link GitHub
+🔥 Features
 
-[https://github.com/gyovannyvpn123/bot-comandsss](https://github.com/gyovannyvpn123/bot-comandsss)
+🎯 Interactive menu with Inquirer
+
+⏱️ Customizable delay between commands
+
+💬 Send messages to contacts and groups
+
+🛡️ Full control through /start and /stop commands
+
+🔥 Red-highlighted logging for maximum visibility
+
+🤖 Runs 24/7 on Termux, Linux, Windows, and macOS
+
+
 
 ---
 
-## 📋 Cerințe
+🛠️ Prerequisites
 
-- **Node.js** v16+ și **npm**
-- **Git**
-- **Bash** (script de instalare)
-- **Termux** (pentru Android)
-- Conexiune internet activă
+Node.js v14+ & npm
+
+Git
+
+(For Termux) Termux with pkg, bash, nodejs
+
+
 
 ---
 
-## 🛠️ Instalare
+⚡ Installation
 
-### 🔹 Pe PC (Linux, macOS, Windows+WSL)
-```bash
-# Clonează repo
+Choose your platform:
+
+1. Termux (Android)
+
+# 1. Install basic packages
+pkg update && pkg upgrade -y
+pkg install git nodejs bash -y
+
+# 2. Clone the repo and install dependencies
 git clone https://github.com/gyovannyvpn123/bot-comandsss.git
 cd bot-comandsss
-
-# Instalează dependențele
 npm install
-npm install @borutowaileys/library@latest
+bash install.sh  # Additional setup if needed
 
-# Pornește botul
-npm start
-```
+# 3. Run the bot
+node index.js
 
-> **Notă:** Poți folosi și scriptul de instalare (pe Linux/macOS):
-```bash
-chmod +x install.sh
-./install.sh
-```
+2. Linux / WSL (PC)
 
-### 🔹 Pe Android (Termux)
-```bash
-# Actualizează și instalează pachete
-pkg update -y && pkg upgrade -y
-pkg install git nodejs jq -y
+# 1. Clone and install
+git clone https://github.com/gyovannyvpn123/bot-comandsss.git
+cd bot-comandsss
+npm install
 
-# Clonează repo și intră în folder
+# 2. (Optional) Run installation script
+bash install.sh
+
+# 3. Start the bot
+node index.js
+
+3. Windows (CMD / PowerShell)
+
+# 1. Clone the repo
 git clone https://github.com/gyovannyvpn123/bot-comandsss.git
 cd bot-comandsss
 
-# Dă permisiuni și rulează scriptul de instalare
-chmod +x install.sh
-./install.sh
-```
+# 2. Install dependencies
+npm install
+
+# 3. (Optional) Run installer
+bash install.sh  # Requires Git Bash or WSL
+
+# 4. Run the bot
+node index.js
+
+4. macOS
+
+# 1. Make sure you have Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# 2. Install Node.js & Git
+brew install node git
+
+# 3. Clone and install
+git clone https://github.com/gyovannyvpn123/bot-comandsss.git
+cd bot-comandsss
+npm install
+bash install.sh
+
+# 4. Run the bot
+node index.js
+
 
 ---
 
-## 🤖 Utilizare
+🚀 Usage
 
-Odată ce botul este pornit și conectat la WhatsApp, scrie una dintre următoarele comenzi în chat:
+1. On first run, you'll see a welcome message and command menu.
 
-| Comandă        | Descriere                                 |
-| -------------- | ----------------------------------------- |
-| `/start1 @tagnumber      | Pornește răspunsurile botului             |
-| `/stop`        | Oprește botul / resetează sesiunea        |
 
-> Poți extinde lista de comenzi direct în `index.js` după nevoile tale.
+2. Use arrows and Enter to select options.
+
+
+3. Use /start <delay> and /stop to control message sending.
+
+
+4. Watch the console for red-highlighted logs.
+
+
+
 
 ---
 
-## ⚙️ Configurație
+📝 Advanced Configuration
 
-- **Fișier de sesiune / token**: dacă folosești autentificare personalizată, creează un fișier `.env` în rădăcina proiectului:
-  ```
-  SESSION_FILE_NAME=session.json
-  ```
-- **Administratori**: contactează BORUTO VPN pentru drepturi de admin.
+Edit config.json for custom settings (delay, ID list, etc).
 
----
+Add custom scripts under the scripts/ folder.
 
-## 🤝 Contribuții
 
-Pull requests și issues sunt binevenite! Pentru întrebări, deschide un issue sau contactează-ne direct.
 
 ---
 
-## 📄 Licență
+🤝 Contributions
 
-Acest proiect este licențiat sub licența MIT. Vezi fișierul [LICENSE](LICENSE) pentru detalii.
+1. Fork the repository
+
+
+2. Create a new branch feature/XYZ
+
+
+3. Commit & Push
+
+
+4. Open a Pull Request
+
+
+
 
 ---
 
-## 📫 Contact
+📄 License
 
-- **Admins**: BORUTO VPN
-- **Email**: gyovanyy147@gmail.com
-- phone number 40756469325 
+Distributed under the MIT License. See LICENSE for more info.
 
-
-Enter your Phone number for pairing code  
-
-Note:
