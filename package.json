@@ -29,7 +29,7 @@
     "url": "https://github.com/gyovannyvpn123/bot-comandsss/issues"
   },
   "dependencies": {
-    "@borutowaileys/library": "^6.12.39",
+    "@borutowaileys/library": "^6.12.41",
     "chalk": "^5.3.0",
     "fs": "^0.0.1-security",
     "pino": "^9.0.0",
