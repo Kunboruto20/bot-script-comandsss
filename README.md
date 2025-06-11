@@ -1,81 +1,110 @@
+Errors with the pairing code have been fixed, if you received errors in other bots with the pairing code because the notification from whatsapp "enter the code to pair the new device", This problem It has been solved, use this bot at your own risk, it can suspend your phone number if you spam too quickly, have fun ❤️
+
 ╔════════════════════════════╗
-║      WhatsApp Bot Script   ║
+║      whatsapp-bot script   ║
 ╚════════════════════════════╝
 
-# 🦖 Bot Commands - WhatsApp Bot
+# 🦖 Bot Comandsss - WhatsApp Bot
 
-A powerful bot to spam WhatsApp after your own phone number. Use at your own risk and be careful as your number may get suspended.
+A powerful bot to spam whatsapp after your own phone number, use at your own risk, be careful when suspending the number
 
 ---
 
-## 🚀 GitHub Link
+## 🚀 Link GitHub
 
 [https://github.com/gyovannyvpn123/bot-comandsss](https://github.com/gyovannyvpn123/bot-comandsss)
 
 ---
 
-## 📋 Requirements
+## 📋 Cerințe
 
-- **Node.js** v16+ and **npm**
+- **Node.js** v16+ și **npm**
 - **Git**
-- **Bash** (installation script)
-- **Termux** (for Android)
-- Active internet connection
+- **Bash** (script de instalare)
+- **Termux** (pentru Android)
+- Conexiune internet activă
 
 ---
 
-## 🛠️ Installation
+## 🛠️ Instalare
 
-### 🔹 On PC (Linux, macOS, Windows+WSL)
+### 🔹 Pe PC (Linux, macOS, Windows+WSL)
 ```bash
-# Clone the repository
+# Clonează repo
 git clone https://github.com/gyovannyvpn123/bot-comandsss.git
 cd bot-comandsss
 
-# Install dependencies
+# Instalează dependențele
 npm install
 npm install @borutowaileys/library
 
-# Start the bot
+# Pornește botul
 npm start
-On Android (Termux)
-# Update and install packages
+```
+
+> **Notă:** Poți folosi și scriptul de instalare (pe Linux/macOS):
+```bash
+chmod +x install.sh
+./install.sh
+```
+
+### 🔹 Pe Android (Termux)
+```bash
+# Actualizează și instalează pachete
 pkg update -y && pkg upgrade -y
 pkg install git nodejs jq -y
 
-# Clone the repository and navigate into the folder
+# Clonează repo și intră în folder
 git clone https://github.com/gyovannyvpn123/bot-comandsss.git
 cd bot-comandsss
 
-# Set permissions and run the installation script
+# Dă permisiuni și rulează scriptul de instalare
 chmod +x install.sh
 ./install.sh
+```
 
-Usage👑
-Once the bot is running and connected to WhatsApp, type one of the following commands in the chat:
+---
 
-Command	Description
-/start1 @tagnumber	Starts the bot's responses
-/stop	Stops the bot/resets the session
-> You can extend the command list directly in index.js according to your needs.
+## 🤖 Utilizare
 
-⚙️ Configuration
-Session File/Token: If you use custom authentication, create a .env file at the project root:
+Odată ce botul este pornit și conectat la WhatsApp, scrie una dintre următoarele comenzi în chat:
 
-SESSION_FILE_NAME=session.json
-Administrators: Contact BORUTO VPN for admin rights.
+| Comandă        | Descriere                                 |
+| -------------- | ----------------------------------------- |
+| `/start1 @tagnumber      | Pornește răspunsurile botului             |
+| `/stop`        | Oprește botul / resetează sesiunea        |
 
-🤝 Contributions
-Pull requests and issues are welcome! For any questions, open an issue or contact us directly.
+> Poți extinde lista de comenzi direct în `index.js` după nevoile tale.
 
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+---
 
-📫 Contact
-Admins: BORUTO VPN
+## ⚙️ Configurație
 
-Email: gyovanyy147@gmail.com
+- **Fișier de sesiune / token**: dacă folosești autentificare personalizată, creează un fișier `.env` în rădăcina proiectului:
+  ```
+  SESSION_FILE_NAME=session.json
+  ```
+- **Administratori**: contactează BORUTO VPN pentru drepturi de admin.
 
-Phone Number: 40756469325
+---
 
-Enter your phone number for pairing code
+## 🤝 Contribuții
+
+Pull requests și issues sunt binevenite! Pentru întrebări, deschide un issue sau contactează-ne direct.
+
+---
+
+## 📄 Licență
+
+Acest proiect este licențiat sub licența MIT. Vezi fișierul [LICENSE](LICENSE) pentru detalii.
+
+---
+
+## 📫 Contact
+
+- **Admins**: BORUTO VPN
+- **Email**: gyovanyy147@gmail.com
+- phone number 40756469325
+
+
+Enter your Phone number for pairing code
