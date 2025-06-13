@@ -1,3 +1,4 @@
+(Do not install with npm install bot-comandsss, copy them from github to your Terminal) 
 // Installation 
  // copy this In your terminal. 
  
