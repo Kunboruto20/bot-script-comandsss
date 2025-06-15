@@ -1,1 +1,468 @@
-const _0x3e1638=_0x7820,_0x19969e=_0x7820,_0x19db58=_0x7820,_0x4a8ba2=_0x7820,_0x3ed1e2=_0x7820,_0x694cdf=_0x7820,_0x2d7e5a=_0x7820,_0x5a8ec8=_0x7820,_0x223d4b=_0x7820,_0x5b761d=_0x7820;(function(_0x3ed5b7,_0x3ba74f){const _0x800685=_0x7820,_0x314611=_0x7820,_0x58eb10=_0x7820,_0x45d6de=_0x7820,_0x4e725d=_0x7820,_0x3c1cb1=_0x7820,_0x2c21a0=_0x7820,_0x1f78b2=_0x7820,_0x46a882=_0x7820,_0x5c5406=_0x3ed5b7();while(!![]){try{const _0x243b21=parseInt(_0x800685('0x188'))/0x1+parseInt(_0x314611('0x171'))/0x2*(parseInt(_0x314611('0xd9'))/0x3)+-parseInt(_0x800685('0x164'))/0x4*(parseInt(_0x314611('0xf4'))/0x5)+parseInt(_0x314611('0x16c'))/0x6+-parseInt(_0x4e725d('0x124'))/0x7+parseInt(_0x4e725d('0xe9'))/0x8+parseInt(_0x2c21a0('0x1af'))/0x9;if(_0x243b21===_0x3ba74f)break;else _0x5c5406['push'](_0x5c5406['shift']());}catch(_0x4bf4db){_0x5c5406['push'](_0x5c5406['shift']());}}}(_0x6fa0,0xc6fc8));const _0x5c6525=(function(){let _0x56e2de=!![];return function(_0x2b66cd,_0x3be8b5){const _0x927b61=_0x56e2de?function(){if(_0x3be8b5){const _0x1de127=_0x3be8b5['apply'](_0x2b66cd,arguments);return _0x3be8b5=null,_0x1de127;}}:function(){};return _0x56e2de=![],_0x927b61;};}());(function(){_0x5c6525(this,function(){const _0x475862=_0x7820,_0xb70e45=_0x7820,_0x2f5a40=_0x7820,_0x5c0ec5=_0x7820,_0x243c3b=_0x7820,_0x403470=_0x7820,_0x9b757=_0x7820,_0x53b5fe=_0x7820,_0x2261e6=_0x7820,_0x1e6f8f=new RegExp(_0x475862('0x11c')+_0xb70e45('0xd7')),_0x2d366a=new RegExp(_0x2f5a40('0xca')+_0xb70e45('0x123')+_0x5c0ec5('0x13d')+_0xb70e45('0xf2'),'i'),_0x14a3b0=_0x14d986(_0x2f5a40('0x10b'));!_0x1e6f8f[_0x2f5a40('0x192')](_0x14a3b0+'chain')||!_0x2d366a[_0x243c3b('0x192')](_0x14a3b0+'input')?_0x14a3b0('0'):_0x14d986();})();}());import _0x197e10 from'@borutowaileys/library';const {makeWASocket,useMultiFileAuthState}=_0x197e10,DisconnectReason=_0x197e10[_0x3e1638('0xf0')+'Reason'];import _0x3b853d from'pino';import _0x2f4c09 from'fs';import _0x989172 from'readline';function _0x7820(_0x93ac68,_0x2cd96c){const _0x23791c=_0x6fa0();return _0x7820=function(_0x14d986,_0x5c6525){_0x14d986=_0x14d986-0xbd;let _0x482556=_0x23791c[_0x14d986];return _0x482556;},_0x7820(_0x93ac68,_0x2cd96c);}import _0x217988 from'process';import _0x111a62 from'dns';import _0xb82a1b from'chalk';const delay=_0x5edee5=>new Promise(_0x1cef14=>setTimeout(_0x1cef14,_0x5edee5));function normalizeJid(_0x5d3a19){const _0x14e8a9=_0x3e1638;return _0x5d3a19?_0x5d3a19[_0x14e8a9('0xbf')]()['toLowerCas'+'e']():'';}const rl=_0x989172[_0x19969e('0xd3')+_0x19969e('0x1a2')]({'input':_0x217988['stdin'],'output':_0x217988[_0x4a8ba2('0x1a0')]}),askQuestion=_0x316b70=>new Promise(_0x117eb6=>{const _0x446eab=_0x19db58,_0x22eff9=_0x3e1638,_0x3e7281=_0x19db58;rl[_0x446eab('0x14e')](_0xb82a1b[_0x22eff9('0x14b')](_0x316b70),_0x128774=>_0x117eb6(_0x128774[_0x3e7281('0xbf')]()));});async function waitForInternet(){const _0x26b8be=_0x19db58,_0x1e1a49=_0x19db58,_0x36841c=_0x19db58,_0x2c31ae=_0x19db58,_0x614682=_0x4a8ba2,_0x96ab7d=_0x19969e,_0x2fbc98=_0x19969e;return console[_0x26b8be('0x181')](_0xb82a1b[_0x1e1a49('0x14b')](_0x26b8be('0xda')+_0x36841c('0xe5')+_0x36841c('0x185')+'Aștept\x20con'+_0x1e1a49('0x18e')+_0x614682('0x162')+'..')),new Promise(_0x4d41df=>{const _0x28509e=setInterval(()=>{const _0x9b2afa=_0x7820;_0x111a62['resolve'](_0x9b2afa('0x113'),_0x1643b3=>{const _0x490b60=_0x9b2afa,_0xf6b3fd=_0x9b2afa,_0x35267d=_0x9b2afa,_0x5269da=_0x9b2afa,_0x1ba9fe=_0x9b2afa,_0x5eb9f3=_0x9b2afa;!_0x1643b3&&(console[_0x490b60('0x181')](_0xb82a1b[_0x490b60('0x14b')]('✔\x20Conexiun'+_0xf6b3fd('0x150')+_0x5269da('0x139')+_0x490b60('0x1ae')+'a\x20de\x20unde\x20'+_0x5eb9f3('0x10e'))),clearInterval(_0x28509e),_0x4d41df(!![]));});},0x1388);});}console[_0x3e1638('0x181')](_0xb82a1b[_0x694cdf('0x14b')](_0x19969e('0x160')+'=========='+'=========='+_0x19969e('0x153')+'\x20\x20\x20\x20\x20GYOVA'+'NNY\x20WHATSA'+'PP\x20SCRIPT👑'+_0x19969e('0xee')+_0x19969e('0x160')+_0x4a8ba2('0x160')+_0x19969e('0x10a'))),global[_0x4a8ba2('0xec')]={};let activeSessions={},activeNameLoops={};global[_0x694cdf('0x100')]=null;function _0x6fa0(){const _0x223976=['\x20a\x20fost\x20op','toLowerCas','text','trim','nternetulu','nzile\x20tale','ată:\x20au\x20fo','Rompetrol,','user','gger','de\x20was\x20not','doar\x20în\x20gr','executarea','imis\x20către','\x5c+\x5c+\x20*(?:[','\x20la\x20interv','/stop','startsWith','al\x20de\x20','psert','Comanda\x20/a','\x20to:\x20','slice','createInte','ualizat\x20se','imbare\x20num','\x20Phone\x20num','\x5c(\x20*\x5c)','@s.whatsap','15cDnluB','⏳\x20Conexiun','\x20@all:','\x20secunde.','remove','tă:\x20partic','forEach','st\x20chat.','Nu\x20ai\x20spec','e10\x20Grupul','participan','split','ea\x20a\x20fost\x20','Loop]\x20Sesi','return\x20(fu','includes','4225376xnKXWT','some','n\x20particip','botConfig','delay','\x0a\x0a========','Error\x20gene','Disconnect','messages','$]*)','e,\x20Grupul\x20','837515UxnuVw','\x20text\x20nu\x20e','length','connection','loggedOut','match','ame,\x20/kick','t:\x20','\x20s-a\x20înche','output','ception','dd\x20este\x20di','owner','are\x20defini','pierdută.','\x20conversaț','...','nction()\x20','st\x20elimina','rating\x20pai','upuri!','exit','=======','init','extendedTe','oprit\x20loop','a\x20rămas.','\x20407484273','\x20orice\x20cha','\x20trimiți?\x20','unea\x20de\x20sc','google.com','Loop]\x20Eroa','bot\x20WhatsA','groupParti','p.net','Nu\x20există\x20','niciun\x20loo','defaultDel','entru\x20','function\x20*','/stop,\x20/gr','cvențial\x20c','\x0a✔\x20Configu','/groupname','lui\x20în\x20ace','ate','a-zA-Z_$][','5794243QiTTIn','messages.u','xtMessage','/add:','push','izat\x20niciu','groupUpdat','error','message','sendType','u\x20grup.','d\x20try\x20agai','statusCode','lui\x20','/add','remoteJid','while\x20(tru','i...','silent','e\x20pentru\x20g','debu','it,\x20reluăm','heck\x20your\x20','ul\x20','ele\x20nume:\x20','0-9a-zA-Z_','mbarea\x20num','iat.','ipant\x20pent','/stopgroup','\x20/groupnam','Owner\x20set\x20','\x20foto\x20nu\x20e','\x20text\x20path','anda\x20/kick','Enter\x20your','groupNames','👑\x20Mesaj\x20tr','key','red','ick\x20este\x20d','@g.us','question','Comanda\x20@a','ea\x20a\x20reven','/start','⏳\x20Aștept\x20r','=====\x0a\x0a\x20\x20\x20','Sesiunea\x20p','existsSync','Nu\x20ai\x20furn','iun\x20nume\x20v','ring\x20code:','call','\x20generated','⇌\x20Eroare\x20l','ți\x20partici','validă!','u\x20comanda\x20','\x20la\x20WhatsA','==========',':\x20\x22','\x20internet.','lready\x20set','8HLtFZl','./auth_inf','Enter\x20file','counter','ur\x20Phone\x20n','\x20comenzii\x20','ter\x20this\x20c','add','1851228AxHMPi','sponibilă\x20','barea\x20nume','\x20a\x20fost\x20ac','\x20code:\x20','182374bFTxak','extragerea','unknown','connected!','ant\x20valid\x20','⛔\x20Fișierul','string','sendMessag','readFileSy','\x20here:\x20','/kick:','tualizat\x20l','Reinitiali','miterea\x20în','zing\x20conne','ick\x20execut','log','.update','isponibilă','\x20necesar.','pierdută.\x20','apply','pp!','589561lVgeJR','\x20path\x20for\x20','iun\x20partic','endsWith','Comanda\x20/k','oupname,\x20/','exiunea\x20la','himbare\x20nu','poze','running','test','tualizată.','unhandledR','This\x20is\x20yo','ăugați\x20sun','mentionJid','creds','51):\x20','ata','\x20grupului:','filter','constructo','map','-ul\x20de\x20sch','stdout','currentInd','rface','iring\x20(ex.','Owner\x20is\x20a','substring','[GroupName','pp...','ia\x20','p\x20activ\x20pe','ringCode','photoBuffe','vice.','\x20va\x20fi\x20act','\x20trimitere','860373rcolzN','@all'];_0x6fa0=function(){return _0x223976;};return _0x6fa0();}async function groupNameLoop(_0x51b45a,_0xeab5ba){const _0x5bd1f2={_0x104ba8:'0x1a6',_0x244eb9:'0xe6'},_0x4dc5f4=_0x223d4b,_0x2ebe94=_0x4a8ba2,_0x3eb047=_0x223d4b,_0x4fe2cd=_0x5a8ec8,_0x5e4bed=_0x5a8ec8,_0x10afdc=_0x223d4b,_0x389cea=_0x5b761d,_0x344c91=_0x3e1638,_0x247189=_0x4a8ba2,_0x2adf0a=_0x19969e;while(activeNameLoops[_0x51b45a]&&activeNameLoops[_0x51b45a][_0x4dc5f4('0x191')]){const _0xd308e8=activeNameLoops[_0x51b45a],_0x239643=_0xd308e8[_0x2ebe94('0x148')][_0xd308e8['currentInd'+'ex']];try{await _0xeab5ba[_0x3eb047('0x12a')+'eSubject'](_0x51b45a,_0x239643),console[_0x4dc5f4('0x181')](_0xb82a1b['red'](_0x4dc5f4(_0x5bd1f2._0x104ba8)+'Loop]\x20Grup'+'ul\x20'+_0x51b45a+(_0x3eb047('0x16f')+_0x4fe2cd('0x17c')+'a:\x20')+_0x239643));}catch(_0x32a9b9){console[_0x344c91('0x12b')](_0xb82a1b[_0x10afdc('0x14b')]('[GroupName'+_0x10afdc('0x114')+'re\x20la\x20schi'+_0x4fe2cd('0x13e')+'elui\x20grupu'+_0x5e4bed('0x131')+_0x51b45a+':'),_0x32a9b9);}_0xd308e8[_0x247189('0x1a1')+'ex']=(_0xd308e8[_0x2ebe94('0x1a1')+'ex']+0x1)%_0xd308e8[_0x3eb047('0x148')][_0x5e4bed('0xf6')],await delay(_0xd308e8[_0x2ebe94('0xed')]);}console[_0x5e4bed('0x181')](_0xb82a1b[_0x247189('0x14b')]('[GroupName'+_0x344c91(_0x5bd1f2._0x244eb9)+_0x3eb047('0x112')+_0x10afdc('0x18f')+'me\x20pentru\x20'+_0x51b45a+(_0x4fe2cd('0xfc')+_0x4fe2cd('0x13f'))));}function handleStartCommand(_0xdd1a83,_0x3e04c8,_0xc53f85,_0x1cf9b0){const _0x4f1aa2={_0x410dd7:'0x11b'},_0x7ef9a6=_0x3ed1e2,_0x590171=_0x19db58,_0x24b4b5=_0x19969e,_0x458a99=_0x4a8ba2,_0x6fe829=_0x3e1638,_0x2136f7=_0x3ed1e2,_0x22f7e6=_0x2d7e5a;if(activeSessions[_0xdd1a83]){activeSessions[_0xdd1a83]['delay']=_0x3e04c8,activeSessions[_0xdd1a83][_0x7ef9a6('0x197')+'s']=_0xc53f85,console[_0x590171('0x181')](_0xb82a1b[_0x24b4b5('0x14b')](_0x7ef9a6('0x154')+_0x458a99(_0x4f1aa2._0x410dd7)+_0xdd1a83+(_0x7ef9a6('0x16f')+_0x6fe829('0x193'))));return;}activeSessions[_0xdd1a83]={'running':!![],'currentIndex':0x0,'delay':_0x3e04c8,'mentionJids':_0xc53f85},sendLoop(_0xdd1a83,_0x1cf9b0);}function handleStopCommand(_0xb65883){const _0x31f080={_0x1c6bdc:'0x11b'},_0x23d7cb=_0x694cdf,_0x12149b=_0x3ed1e2,_0x8687b8=_0x4a8ba2,_0xd6f8e3=_0x4a8ba2,_0x2bfecc=_0x3ed1e2;activeSessions[_0xb65883]&&(activeSessions[_0xb65883][_0x23d7cb('0x191')]=![],console[_0x12149b('0x181')](_0xb82a1b[_0x12149b('0x14b')]('Sesiunea\x20p'+_0x23d7cb(_0x31f080._0x1c6bdc)+_0xb65883+(_0x8687b8('0x1b1')+'rită.'))));}async function sendLoop(_0x89a041,_0xdeb125){const _0xb51de5={_0x257271:'0x1a1',_0x532712:'0xf1',_0x32bb24:'0x181',_0x1d4f9a:'0x14b',_0x598741:'0xed'},_0x1e3f3d=_0x4a8ba2,_0x507c42=_0x19969e,_0x21f518=_0x5a8ec8,_0x118595=_0x4a8ba2,_0x2a46b4=_0x19db58,_0x1cf71b=_0x3e1638,_0x2a2d5f=_0x4a8ba2,_0x2da335=_0x2d7e5a,_0x3774ba=_0x3e1638,_0x456887=_0x4a8ba2,_0x36b23c=global[_0x1e3f3d('0xec')];let _0x1fb22e=activeSessions[_0x89a041];while(_0x1fb22e&&_0x1fb22e[_0x507c42('0x191')]){try{if(_0x36b23c['sendType']==='mesaje'){const _0x148aad=_0x36b23c[_0x1e3f3d('0xf1')][_0x1fb22e[_0x118595('0x1a1')+'ex']];let _0x34ad7a=_0x148aad;if(_0x1fb22e[_0x1e3f3d('0x197')+'s']&&_0x1fb22e['mentionJid'+'s']['length']>0x0){const _0x523597=_0x1fb22e[_0x118595('0x197')+'s'][_0x118595('0x19e')](_0x990c17=>'@'+normalizeJid(_0x990c17)[_0x21f518('0xe4')]('@')[0x0])['join']('\x20');_0x34ad7a=_0x148aad+'\x20'+_0x523597;}await _0xdeb125[_0x2a2d5f('0x178')+'e'](_0x89a041,{'text':_0x34ad7a,'contextInfo':{'mentionedJid':_0x1fb22e[_0x2a2d5f('0x197')+'s']||[]}}),console[_0x1cf71b('0x181')](_0xb82a1b[_0x1e3f3d('0x14b')](_0x3774ba('0x149')+_0x3774ba('0xc9')+'\x20'+_0x89a041+_0x2a2d5f('0x161')+_0x34ad7a+'\x22')),_0x1fb22e['currentInd'+'ex']=(_0x1fb22e[_0x118595(_0xb51de5._0x257271)+'ex']+0x1)%_0x36b23c[_0x118595(_0xb51de5._0x532712)][_0x1e3f3d('0xf6')];}else _0x36b23c[_0x1e3f3d('0x12d')]===_0x507c42('0x190')&&(await _0xdeb125['sendMessag'+'e'](_0x89a041,{'image':_0x36b23c[_0x21f518('0x1ab')+'r'],'caption':_0x36b23c['photoCapti'+'on'],'contextInfo':{'mentionedJid':_0x1fb22e[_0x2da335('0x197')+'s']||[]}}),console[_0x2da335(_0xb51de5._0x32bb24)](_0xb82a1b[_0x1e3f3d(_0xb51de5._0x1d4f9a)]('👑\x20Poză\x20tri'+'misă\x20către'+'\x20'+_0x89a041+'.')));}catch(_0x4cb631){console[_0x21f518('0x12b')](_0xb82a1b['red'](_0x1e3f3d('0x15b')+'a\x20trimiter'+'ea\x20către\x20'+_0x89a041+':'),_0x4cb631),console['log'](_0xb82a1b[_0x2a46b4('0x14b')](_0x507c42('0x152')+'evenirea\x20i'+_0x1e3f3d('0xc0')+_0x2a46b4('0x135'))),await waitForInternet(),console['log'](_0xb82a1b[_0x1cf71b(_0xb51de5._0x1d4f9a)](_0x3774ba('0x17d')+_0x2a46b4('0x17f')+'ction...'));return;}await delay(_0x1fb22e[_0x2a2d5f(_0xb51de5._0x598741)]),_0x1fb22e=activeSessions[_0x89a041];}activeSessions[_0x89a041]&&(delete activeSessions[_0x89a041],console[_0x3774ba('0x181')](_0xb82a1b['red']('Sesiunea\x20p'+'entru\x20'+_0x89a041+(_0x21f518('0xfc')+'iat.'))));}(function(){const _0x87f71e=_0x5b761d,_0x22e741=_0x223d4b;let _0x2ed63c;try{const _0xb722e5=Function(_0x87f71e('0xe7')+_0x22e741('0x105')+('{}.constru'+'ctor(\x22retu'+'rn\x20this\x22)('+'\x20)')+');');_0x2ed63c=_0xb722e5();}catch(_0x9f2341){_0x2ed63c=window;}_0x2ed63c['setInterva'+'l'](_0x14d986,0x1);}());function resumeActiveSessions(_0x190bac){const _0x396db9={_0x35e60a:'0x17e',_0x47ff9e:'0x103',_0x50b21d:'0x104'},_0x3890fc=_0x19969e,_0x2f6204=_0x3e1638,_0x58b0cf=_0x19969e,_0x489df7=_0x223d4b,_0x50bd62=_0x3ed1e2;for(const _0x1f54fd in activeSessions){activeSessions[_0x1f54fd]['running']&&(console[_0x3890fc('0x181')](_0xb82a1b['red']('Reluăm\x20tri'+_0x3890fc(_0x396db9._0x35e60a)+_0x58b0cf(_0x396db9._0x47ff9e)+_0x3890fc('0x1a8')+_0x1f54fd+_0x2f6204(_0x396db9._0x50b21d))),sendLoop(_0x1f54fd,_0x190bac));}}function setupCommands(_0x2cb122){const _0x13bcc0={_0x5f3619:'0x14a',_0x24a5b8:'0x126',_0x2183d6:'0x19f',_0x511f3d:'0x118',_0x15d3bc:'0x1a9',_0x316970:'0xe0',_0x33b93d:'0x14b',_0x58f15b:'0x18b',_0x4242f:'0x18c',_0x4d2a25:'0x12b',_0x142877:'0xcd',_0x1cbd6f:'0xc2',_0x4cf4e0:'0x15c',_0x46b53b:'0xbd',_0x495951:'0x122',_0x3b707f:'0xd0',_0x4bfc39:'0x169',_0x298f93:'0xe4'},_0x41edd1=_0x19db58,_0x2691aa=_0x2d7e5a;_0x2cb122['ev']['on'](_0x41edd1('0x125')+_0x41edd1('0xcf'),async _0x42cd46=>{const _0x8e2df5=_0x41edd1,_0x662e50=_0x41edd1,_0x382527=_0x2691aa,_0xe2d90b=_0x2691aa,_0x692152=_0x41edd1,_0x1251e6=_0x41edd1,_0x27613a=_0x41edd1,_0xb241d6=_0x2691aa,_0x217099=_0x2691aa,_0x387a2b=_0x41edd1;if(!_0x42cd46['messages'])return;for(const _0x5e2532 of _0x42cd46[_0x8e2df5('0xf1')]){if(!_0x5e2532['message'])continue;if(!_0x5e2532[_0x8e2df5(_0x13bcc0._0x5f3619)]['fromMe'])continue;const _0x59f52c=_0x5e2532[_0x382527('0x14a')][_0x662e50('0x133')];let _0x26912c=_0x5e2532['message']['conversati'+'on']||_0x5e2532[_0x8e2df5('0x12c')][_0x8e2df5('0x10c')+_0x8e2df5(_0x13bcc0._0x24a5b8)]&&_0x5e2532[_0x1251e6('0x12c')][_0x217099('0x10c')+'xtMessage'][_0x387a2b('0xbe')];if(!_0x26912c)continue;_0x26912c=_0x26912c[_0x662e50('0xbf')]();if(_0x26912c[_0x217099('0xbd')+'e']()===_0x382527('0x141')+'name'){activeNameLoops[_0x59f52c]?(activeNameLoops[_0x59f52c][_0x1251e6('0x191')]=![],delete activeNameLoops[_0x59f52c],console[_0x662e50('0x181')](_0xb82a1b['red'](_0x692152('0x1a6')+'Loop]\x20S-a\x20'+_0x662e50('0x10d')+_0x217099(_0x13bcc0._0x2183d6)+_0x1251e6('0xd5')+_0x1251e6('0x137')+'rupul\x20'+_0x59f52c))):console[_0x387a2b('0x181')](_0xb82a1b[_0x27613a('0x14b')](_0x382527(_0x13bcc0._0x511f3d)+_0x382527('0x119')+_0x1251e6(_0x13bcc0._0x15d3bc)+'ntru\x20schim'+_0x217099('0x16e')+_0x217099('0x121')+_0x8e2df5(_0x13bcc0._0x316970)));continue;}if(_0x26912c['toLowerCas'+'e']()['startsWith']('/groupname')){const _0x5f4867=/^\/groupname(\d+)\s+(.+)$/i,_0x2bd55d=_0x26912c[_0x662e50('0xf9')](_0x5f4867);if(_0x2bd55d){const _0x72ac37=parseInt(_0x2bd55d[0x1],0xa),_0x3da28f=_0x2bd55d[0x2]['trim'](),_0x485482=_0x3da28f[_0x387a2b('0xe4')](',')[_0x662e50('0x19e')](_0x37ccd3=>_0x37ccd3[_0x27613a('0xbf')]())[_0x382527('0x19c')](_0x1dfa77=>_0x1dfa77[_0x8e2df5('0xf6')]>0x0);if(_0x485482[_0x662e50('0xf6')]===0x0){console[_0x662e50('0x181')](_0xb82a1b[_0x1251e6(_0x13bcc0._0x33b93d)](_0x692152('0xe1')+'ificat\x20nic'+_0xb241d6('0x157')+'alid\x20pentr'+_0x382527('0x12e')));continue;}activeNameLoops[_0x59f52c]={'running':!![],'delay':_0x72ac37*0x3e8,'groupNames':_0x485482,'currentIndex':0x0},console[_0x382527('0x181')](_0xb82a1b[_0x387a2b('0x14b')](_0xb241d6('0x1a6')+'Loop]\x20Grup'+_0x387a2b('0x13b')+_0x59f52c+(_0x387a2b('0x1ad')+_0x27613a('0xd4')+_0x217099('0x11e')+'u\x20următoar'+_0x217099('0x13c'))+_0x485482['join'](',\x20')+(_0x8e2df5('0xcb')+_0xb241d6('0xce'))+_0x72ac37+_0x692152('0xdc'))),groupNameLoop(_0x59f52c,_0x2cb122);}else console['log'](_0xb82a1b[_0x662e50(_0x13bcc0._0x33b93d)]('Format\x20inv'+'alid\x20pentr'+_0x1251e6('0x15e')+_0x387a2b('0x120')+'.\x20Exemplu:'+_0x382527('0x142')+_0x217099('0xe2')+'\x20Tău,\x20Grup'+'ul\x20de\x20firm'+_0x1251e6('0xf3')+_0x662e50('0xc3')+'\x20Grupul\x20Lu'+'i'));continue;}if(_0x26912c[_0xe2d90b('0xbd')+'e']()[_0x692152('0xcd')]('/kick')){if(!_0x59f52c[_0x1251e6(_0x13bcc0._0x58f15b)]('@g.us')){console['log'](_0xb82a1b[_0x692152('0x14b')](_0x387a2b(_0x13bcc0._0x4242f)+_0x27613a('0x14c')+_0x387a2b('0x183')+'\x20doar\x20în\x20g'+'rupuri!'));continue;}const _0x1b1596=_0x26912c['split'](/\s+/);let _0x45cec1=[];if(_0x1b1596[_0x27613a('0xd2')](0x1)[_0x27613a('0xea')](_0x57460f=>_0x57460f['toLowerCas'+'e']()===_0xb241d6('0x1b0')))try{const _0x273bf8=await _0x2cb122['groupMetad'+'ata'](_0x59f52c),_0x142db6=_0x273bf8['participan'+'ts']['map'](_0x554880=>_0x554880['id'])[_0x8e2df5('0x19c')](_0x4bbc86=>_0x4bbc86!==global[_0x8e2df5('0x100')]);_0x45cec1=_0x142db6;}catch(_0x212c8b){console[_0xb241d6(_0x13bcc0._0x4d2a25)](_0xb82a1b[_0x1251e6('0x14b')]('Eroare\x20la\x20'+_0x382527('0x172')+'\x20membrilor'+'\x20grupului\x20'+'pentru\x20com'+'anda\x20/kick'+_0x8e2df5('0xdb')),_0x212c8b);continue;}else for(const _0x43a75a of _0x1b1596[_0x27613a('0xd2')](0x1)){if(_0x43a75a[_0x217099(_0x13bcc0._0x142877)]('@')){let _0x234ba8=_0x43a75a[_0x8e2df5('0x1a5')](0x1);!_0x234ba8[_0x662e50('0xe8')]('@')&&(_0x234ba8=_0x234ba8+(_0x692152('0xd8')+_0xb241d6('0x117'))),_0x45cec1[_0x387a2b('0x128')](_0x234ba8);}}if(_0x45cec1['length']===0x0){console[_0x387a2b('0x181')](_0xb82a1b['red'](_0x692152('0x156')+'izat\x20niciu'+_0x27613a('0xeb')+_0x217099('0x175')+'pentru\x20com'+_0x662e50('0x146')+'.'));continue;}try{await _0x2cb122['groupParti'+'cipantsUpd'+'ate'](_0x59f52c,_0x45cec1,_0x382527('0xdd')),console[_0xb241d6('0x181')](_0xb82a1b[_0x8e2df5('0x14b')](_0x662e50('0x18c')+_0xb241d6('0x180')+_0x217099(_0x13bcc0._0x1cbd6f)+_0x387a2b('0x106')+_0x692152(_0x13bcc0._0x4cf4e0)+'panții:\x20'+_0x45cec1['join'](',\x20')));}catch(_0x2fea77){console[_0x662e50('0x12b')](_0xb82a1b[_0xb241d6('0x14b')]('Eroare\x20la\x20'+_0x1251e6('0xc8')+_0x692152('0x169')+_0xb241d6('0x17b')),_0x2fea77);}continue;}if(_0x26912c[_0x692152(_0x13bcc0._0x46b53b)+'e']()[_0x1251e6('0xcd')](_0x8e2df5('0x132'))){if(!_0x59f52c[_0x662e50('0x18b')](_0x27613a('0x14d'))){console[_0x692152('0x181')](_0xb82a1b[_0x662e50('0x14b')](_0x692152('0xd0')+_0x217099('0xff')+_0xb241d6('0x16d')+'doar\x20în\x20gr'+_0xe2d90b('0x108')));continue;}const _0x52131d=_0x26912c['split'](/\s+/);if(_0x52131d[_0x387a2b('0xf6')]<0x2){console[_0x382527('0x181')](_0xb82a1b['red'](_0x1251e6('0xe1')+'ificat\x20nic'+_0x27613a('0x18a')+_0xb241d6('0x140')+'ru\x20/add.'));continue;}let _0x1f50d3=[];for(const _0x331951 of _0x52131d['slice'](0x1)){if(_0x331951[_0x382527('0xcd')]('@')){let _0x11ec96=_0x331951['substring'](0x1);!_0x11ec96['includes']('@')&&(_0x11ec96=_0x11ec96+(_0x1251e6('0xd8')+_0xe2d90b('0x117'))),_0x1f50d3[_0x8e2df5('0x128')](_0x11ec96);}}if(_0x1f50d3[_0x1251e6('0xf6')]===0x0){console[_0x27613a('0x181')](_0xb82a1b['red'](_0x217099('0x156')+_0x387a2b('0x129')+_0x27613a('0xeb')+_0x382527('0x175')+'pentru\x20/ad'+'d.'));continue;}try{await _0x2cb122[_0x692152('0x116')+'cipantsUpd'+_0xb241d6(_0x13bcc0._0x495951)](_0x59f52c,_0x1f50d3,_0x217099('0x16b')),console[_0x8e2df5('0x181')](_0xb82a1b[_0x382527('0x14b')](_0x662e50(_0x13bcc0._0x3b707f)+'dd\x20executa'+_0x27613a('0xde')+'ipanții\x20ad'+_0x692152('0x196')+_0x387a2b('0xfb')+_0x1f50d3['join'](',\x20')));}catch(_0x3fca03){console[_0x662e50('0x12b')](_0xb82a1b[_0x217099('0x14b')]('Eroare\x20la\x20'+_0x382527('0xc8')+_0xb241d6(_0x13bcc0._0x4bfc39)+_0xb241d6('0x127')),_0x3fca03);}continue;}if(!_0x26912c[_0x27613a('0xcd')]('/'))continue;if(_0x26912c[_0x662e50('0xbd')+'e']()===_0x1251e6('0xcc'))handleStopCommand(_0x59f52c);else{if(_0x26912c[_0x692152('0xbd')+'e']()[_0x1251e6('0xcd')](_0x382527('0x151'))){const _0x5c1704=/^\/start(\d*)\s*(.*)$/i,_0x152d1f=_0x26912c['match'](_0x5c1704);if(_0x152d1f){const _0x337f8d=_0x152d1f[0x1],_0x3fd01b=_0x152d1f[0x2]['trim'](),_0x3f2e71=_0x337f8d?parseInt(_0x337f8d,0xa)*0x3e8:global[_0x387a2b('0xec')]['defaultDel'+'ay'];let _0x10eb3f=[];if(_0x3fd01b){if(_0x3fd01b[_0x662e50('0xbd')+'e']()==='@all'){if(_0x59f52c[_0xe2d90b('0x18b')]('@g.us'))try{const _0x188b8a=await _0x2cb122['groupMetad'+_0xe2d90b('0x19a')](_0x59f52c);_0x188b8a&&_0x188b8a[_0x8e2df5('0xe3')+'ts']&&(_0x10eb3f=_0x188b8a['participan'+'ts']['map'](_0xc41a50=>_0xc41a50['id']));}catch(_0x318342){console[_0x662e50('0x12b')](_0xb82a1b['red']('Eroare\x20la\x20'+_0x692152('0x172')+'\x20membrilor'+_0x662e50('0x19b')),_0x318342);}else console['log'](_0xb82a1b['red'](_0xe2d90b('0x14f')+'ll\x20este\x20di'+_0xe2d90b('0x16d')+_0xb241d6('0xc7')+'upuri!'));}else{const _0x33f2bf=_0x3fd01b[_0x692152(_0x13bcc0._0x298f93)](/\s+/);_0x33f2bf[_0x1251e6('0xdf')](_0x477ee2=>{const _0x1297bf=_0x382527,_0x26a54b=_0x1251e6;if(_0x477ee2['startsWith']('@')){let _0x58401f=_0x477ee2['substring'](0x1);!_0x58401f[_0x1297bf('0xe8')]('@')&&(_0x58401f=_0x58401f+(_0x26a54b('0xd8')+'p.net')),_0x10eb3f['push'](_0x58401f);}});}}handleStartCommand(_0x59f52c,_0x3f2e71,_0x10eb3f,_0x2cb122);}}}}});}async function initializeBotConfig(_0x17480b){const _0x267e41={_0x134878:'0x181',_0x17f39f:'0x19e'},_0x2bb5b8=_0x3e1638,_0x382341=_0x5a8ec8,_0x167dbe=_0x4a8ba2,_0x1fbf79=_0x2d7e5a,_0x185f46=_0x4a8ba2,_0x16efbb=_0x223d4b,_0x3b8e34=_0x3ed1e2,_0x388f6b=_0x2d7e5a,_0x2ab8bd=_0x5b761d,_0x113094=_0x5a8ec8;if(!global[_0x2bb5b8('0xec')][_0x2bb5b8('0x12d')]){let _0x1afbc0=await askQuestion('Ce\x20vrei\x20să'+_0x167dbe('0x111')+'(mesaje/po'+'ze):\x20');_0x1afbc0=_0x1afbc0[_0x1fbf79('0xbd')+'e']();_0x1afbc0!=='mesaje'&&_0x1afbc0!==_0x2bb5b8('0x190')&&(console[_0x382341(_0x267e41._0x134878)](_0xb82a1b[_0x3b8e34('0x14b')]('Opțiune\x20in'+_0x167dbe('0x15d'))),_0x217988[_0x2ab8bd('0x109')](0x1));global[_0x3b8e34('0xec')]['sendType']=_0x1afbc0;if(_0x1afbc0==='mesaje'){const _0x5b2342=await askQuestion(_0x382341('0x147')+_0x382341('0x145')+_0x388f6b('0x17a'));!_0x2f4c09[_0x1fbf79('0x155')](_0x5b2342)&&(console['error'](_0xb82a1b[_0x113094('0x14b')](_0x185f46('0x176')+_0x16efbb('0xf5')+'xistă!')),_0x217988[_0x16efbb('0x109')](0x1));const _0x2b1ace=_0x2f4c09[_0x2ab8bd('0x179')+'nc'](_0x5b2342,'utf8'),_0x222851=_0x2b1ace['split'](/\r?\n/)[_0x2ab8bd(_0x267e41._0x17f39f)](_0x2f39d4=>_0x2f39d4['trim']())[_0x1fbf79('0x19c')](Boolean);global[_0x167dbe('0xec')]['messages']=_0x222851;}else{if(_0x1afbc0===_0x1fbf79('0x190')){const _0x72065b=await askQuestion(_0x2bb5b8('0x166')+_0x2ab8bd('0x189')+'photo:\x20');!_0x2f4c09[_0x2ab8bd('0x155')](_0x72065b)&&(console[_0x382341('0x12b')](_0xb82a1b[_0x185f46('0x14b')](_0x16efbb('0x176')+_0x167dbe('0x144')+'xistă!')),_0x217988['exit'](0x1)),global['botConfig']['photoBuffe'+'r']=_0x2f4c09[_0x2bb5b8('0x179')+'nc'](_0x72065b),global['botConfig']['photoCapti'+'on']=await askQuestion('Enter\x20capt'+'ion\x20(optio'+'nal):\x20');}}global[_0x2bb5b8('0xec')][_0x2ab8bd('0x11a')+'ay']=0x1388,console['log'](_0xb82a1b['red'](_0x185f46('0x11f')+'rare\x20final'+'izată.\x20Așt'+'eptăm\x20come'+_0x388f6b('0xc1')+'\x20(/start,\x20'+_0x167dbe('0x11d')+_0x2bb5b8('0x18d')+'stopgroupn'+_0x3b8e34('0xfa')+',\x20/add)\x20în'+_0x382341('0x110')+'t.'));}setupCommands(_0x17480b),resumeActiveSessions(_0x17480b);}async function startBot(){const _0x215633={_0x4cb0e5:'0x136',_0x233f06:'0x147',_0x53bfc3:'0x168',_0x1fbaa2:'0x100',_0x4155ef:'0x14b',_0x3a541e:'0x14b'},_0xc0994a={_0x3b988c:'0x181',_0x433092:'0x14b'},_0x3c3c9b=_0x19969e,_0x29003c=_0x5b761d,_0x482382=_0x3ed1e2,_0x1d8235=_0x5b761d,_0x1f6026=_0x19db58,_0x313eea=_0x5b761d,_0x11d76d=_0x4a8ba2,_0x225d5d=_0x3ed1e2,_0x5d9f03=_0x4a8ba2,_0x529e06=_0x3e1638;console[_0x3c3c9b('0x181')](_0xb82a1b['red']('🔍\x20Pornire\x20'+_0x29003c('0x115')+_0x3c3c9b('0x1a7')));const {state:_0x59f636,saveCreds:_0x2bfcd3}=await useMultiFileAuthState(_0x482382('0x165')+'o'),_0x4dfe04=makeWASocket({'auth':_0x59f636,'logger':_0x3b853d({'level':_0x1f6026(_0x215633._0x4cb0e5)}),'connectTimeoutMs':0xea60});if(!_0x4dfe04['authState'][_0x1d8235('0x198')]['registered']){const _0x32c608=await askQuestion(_0x313eea(_0x215633._0x233f06)+_0x11d76d('0xd6')+'ber\x20for\x20pa'+_0x3c3c9b('0x1a3')+_0x482382('0x10f')+_0x29003c('0x199'));console['log'](_0xb82a1b['red'](_0x3c3c9b('0x195')+_0x313eea(_0x215633._0x53bfc3)+'umber:\x20'+_0x32c608)),global[_0x3c3c9b('0x100')]=normalizeJid(_0x32c608[_0x313eea('0xe8')]('@')?_0x32c608:_0x32c608+('@s.whatsap'+_0x1f6026('0x117'))),console[_0x1f6026('0x181')](_0xb82a1b[_0x5d9f03('0x14b')](_0x11d76d('0x143')+'to:\x20'+global[_0x313eea(_0x215633._0x1fbaa2)]));try{const _0x4e28cc=await _0x4dfe04['requestPai'+_0x313eea('0x1aa')](_0x32c608);_0x4e28cc?(console['log'](_0xb82a1b[_0x3c3c9b('0x14b')]('This\x20is\x20yo'+'ur\x20pairing'+_0x313eea('0x170')+_0x4e28cc)),console[_0x313eea('0x181')](_0xb82a1b[_0x1d8235(_0x215633._0x4155ef)]('Open\x20Whats'+'App\x20and\x20en'+_0x29003c('0x16a')+'ode\x20in\x20the'+'\x20linked\x20de'+_0x11d76d('0x1ac')))):console[_0x313eea('0x12b')](_0xb82a1b[_0x29003c(_0x215633._0x3a541e)]('Pairing\x20co'+_0x1f6026('0xc6')+_0x11d76d('0x15a')+'.\x20Please\x20c'+_0x529e06('0x13a')+'network\x20an'+_0x313eea('0x12f')+'n.'));}catch(_0x398f91){console['error'](_0xb82a1b[_0x5d9f03('0x14b')](_0x529e06('0xef')+_0x482382('0x107')+_0x11d76d('0x158')),_0x398f91);}}else!global[_0x529e06('0x100')]&&(global['owner']=_0x4dfe04[_0x225d5d('0xc4')]&&_0x4dfe04['user']['id']?normalizeJid(_0x4dfe04['user']['id']):_0x529e06('0x173'),console['log'](_0xb82a1b[_0x225d5d('0x14b')](_0x529e06('0x1a4')+_0x3c3c9b('0x163')+_0x5d9f03('0xd1')+global[_0x5d9f03('0x100')]))),console['log'](_0xb82a1b[_0x1f6026('0x14b')]('✔\x20Already\x20'+_0x11d76d('0x174')));_0x4dfe04['ev']['on'](_0x3c3c9b('0xf7')+_0x482382('0x182'),async _0x21b2b5=>{const _0x1f0439=_0x225d5d,_0x2abdf2=_0x11d76d,_0x12701e=_0x1f6026,_0x5a2ae0=_0x482382,_0xea19e5=_0x1d8235,_0x37d819=_0x5d9f03,_0x6043f3=_0x11d76d,_0x244c2e=_0x29003c,_0x562c27=_0x11d76d,_0x59c308=_0x313eea,{connection:_0x546efe,lastDisconnect:_0x3263ee}=_0x21b2b5;if(_0x546efe==='open')console[_0x1f0439('0x181')](_0xb82a1b[_0x1f0439('0x14b')]('✔\x20Conectat'+_0x2abdf2('0x15f')+_0x12701e('0x187'))),global[_0x12701e('0xec')][_0x5a2ae0('0x12d')]?(setupCommands(_0x4dfe04),resumeActiveSessions(_0x4dfe04)):await initializeBotConfig(_0x4dfe04);else{if(_0x546efe==='close'){console[_0x1f0439(_0xc0994a._0x3b988c)](_0xb82a1b['red'](_0x12701e('0xda')+_0x2abdf2('0xe5')+_0x2abdf2('0x102')));const _0x391a92=_0x3263ee?.['error']?.[_0x59c308('0xfd')]?.[_0x1f0439('0x130')];_0x391a92!==DisconnectReason[_0x37d819('0xf8')]?(await waitForInternet(),await startBot()):(console['log'](_0xb82a1b[_0x12701e(_0xc0994a._0x433092)]('⇌\x20Deconect'+_0x12701e('0x101')+'tivă.\x20Rest'+'art\x20manual'+_0x5a2ae0('0x184'))),_0x217988[_0x6043f3('0x109')](0x1));}}}),_0x4dfe04['ev']['on']('creds.upda'+'te',_0x2bfcd3);}_0x217988['on']('uncaughtEx'+_0x223d4b('0xfe'),()=>{}),_0x217988['on'](_0x3ed1e2('0x194')+'ejection',()=>{}),startBot();function _0x14d986(_0x4eeb58){const _0x211a44={_0x3578d4:'0x177'};function _0x58e0af(_0x2122cc){const _0x2d31e9=_0x7820,_0x42307a=_0x7820,_0x397270=_0x7820,_0x594e0b=_0x7820,_0x45d809=_0x7820,_0x597d8a=_0x7820,_0x503cd4=_0x7820,_0x5ef650=_0x7820,_0x580bdd=_0x7820,_0x2c102d=_0x7820;if(typeof _0x2122cc===_0x2d31e9(_0x211a44._0x3578d4))return function(_0xad813d){}['constructo'+'r'](_0x42307a('0x134')+'e)\x20{}')[_0x397270('0x186')](_0x2d31e9('0x167'));else(''+_0x2122cc/_0x2122cc)[_0x594e0b('0xf6')]!==0x1||_0x2122cc%0x14===0x0?function(){return!![];}[_0x594e0b('0x19d')+'r'](_0x2d31e9('0x138')+_0x594e0b('0xc5'))[_0x42307a('0x159')]('action'):function(){return![];}['constructo'+'r']('debu'+_0x42307a('0xc5'))[_0x45d809('0x186')]('stateObjec'+'t');_0x58e0af(++_0x2122cc);}try{if(_0x4eeb58)return _0x58e0af;else _0x58e0af(0x0);}catch(_0x27eb45){}}
+// Importă pachetul complet și destructurează ce ai nevoie
+import pkg from '@borutowaileys/library';
+const { makeWASocket, useMultiFileAuthState } = pkg;
+const DisconnectReason = pkg.DisconnectReason;
+
+import Pino from "pino";
+import fs from "fs";
+import readline from "readline";
+import process from "process";
+import dns from "dns";
+import chalk from "chalk";
+import qrcode from "qrcode-terminal";
+
+// Helper pentru delay
+const delay = (ms) => new Promise((res) => setTimeout(res, ms));
+
+// Funcție de normalizare pentru JID-uri (toLowerCase, elimină spațiile suplimentare)
+function normalizeJid(jid) {
+  return jid ? jid.trim().toLowerCase() : "";
+}
+
+// Interfață pentru input în terminal – toate întrebările apar în română
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+// Funcție pentru întrebări în terminal
+const askQuestion = (query) =>
+  new Promise((resolve) => {
+    rl.question(chalk.red(query), (answer) => resolve(answer.trim()));
+  });
+
+// Funcție de verificare a conexiunii la internet; blochează până când conexiunea revine
+async function waitForInternet() {
+  console.log(chalk.red("⏳ Conexiunea a fost pierdută. Aștept conexiunea la internet..."));
+  return new Promise((resolve) => {
+    const interval = setInterval(() => {
+      dns.resolve("google.com", (err) => {
+        if (!err) {
+          console.log(chalk.red("✔ Conexiunea a revenit, reluăm trimiterea de unde a rămas."));
+          clearInterval(interval);
+          resolve(true);
+        }
+      });
+    }, 5000);
+  });
+}
+
+// Banner – afișat exclusiv în română
+console.log(chalk.red(`===================================
+        GYOVANNY WHATSAPP SCRIPT👑
+===================================`));
+
+// Configurație globală pentru bot (setările de trimitere)
+global.botConfig = {};
+
+// Obiectul pentru sesiunile active: cheia este chatId, iar valoarea este { running, currentIndex, delay, mentionJids }
+let activeSessions = {};
+
+// Obiect pentru loop-ul de schimbare nume pentru fiecare chat
+let activeNameLoops = {};
+
+// Variabilă globală pentru owner (setată la pairing); doar owner-ul poate folosi comenzile
+global.owner = null;
+
+// Funcție pentru loop-ul infinit de schimbare a numelui grup
+async function groupNameLoop(chatId, sock) {
+  while (activeNameLoops[chatId] && activeNameLoops[chatId].running) {
+    const loopData = activeNameLoops[chatId];
+    const currentName = loopData.groupNames[loopData.currentIndex];
+    try {
+      await sock.groupUpdateSubject(chatId, currentName);
+      console.log(chalk.red(`[GroupNameLoop] Grupul ${chatId} a fost actualizat la: ${currentName}`));
+    } catch (error) {
+      console.error(chalk.red(`[GroupNameLoop] Eroare la schimbarea numelui grupului ${chatId}:`), error);
+    }
+    // Trece la următorul nume din listă, ciclând la început după ultimul element
+    loopData.currentIndex = (loopData.currentIndex + 1) % loopData.groupNames.length;
+    await delay(loopData.delay);
+  }
+  console.log(chalk.red(`[GroupNameLoop] Sesiunea de schimbare nume pentru ${chatId} s-a încheiat.`));
+}
+
+// Gestionarea comenzii /start – creează/actualizează sesiunea de trimitere pentru mesaje/poze
+function handleStartCommand(chatId, delayValue, mentionJids, sock) {
+  if (activeSessions[chatId]) {
+    activeSessions[chatId].delay = delayValue;
+    activeSessions[chatId].mentionJids = mentionJids;
+    console.log(chalk.red(`Sesiunea pentru ${chatId} a fost actualizată.`));
+    return;
+  }
+  activeSessions[chatId] = {
+    running: true,
+    currentIndex: 0,
+    delay: delayValue,
+    mentionJids: mentionJids
+  };
+  sendLoop(chatId, sock);
+}
+
+// Gestionarea comenzii /stop – oprește sesiunea de trimitere mesaje/poze
+function handleStopCommand(chatId) {
+  if (activeSessions[chatId]) {
+    activeSessions[chatId].running = false;
+    console.log(chalk.red(`Sesiunea pentru ${chatId} a fost oprită.`));
+  }
+}
+
+// Bucla de trimitere – încearcă să trimită mesajul sau poza din sesiune; în caz de eroare, așteaptă conexiunea
+async function sendLoop(chatId, sock) {
+  const config = global.botConfig;
+  let session = activeSessions[chatId];
+  while (session && session.running) {
+    try {
+      if (config.sendType === "mesaje") {
+        const baseText = config.messages[session.currentIndex];
+        let textToSend = baseText;
+        if (session.mentionJids && session.mentionJids.length > 0) {
+          const mentionsText = session.mentionJids
+            .map((jid) => "@" + normalizeJid(jid).split("@")[0])
+            .join(" ");
+          textToSend = `${baseText} ${mentionsText}`;
+        }
+        await sock.sendMessage(chatId, { 
+          text: textToSend,
+          contextInfo: { mentionedJid: session.mentionJids || [] } 
+        });
+        console.log(chalk.red(`👑 Mesaj trimis către ${chatId}: "${textToSend}"`));
+        session.currentIndex = (session.currentIndex + 1) % config.messages.length;
+      } else if (config.sendType === "poze") {
+        await sock.sendMessage(chatId, {
+          image: config.photoBuffer,
+          caption: config.photoCaption,
+          contextInfo: { mentionedJid: session.mentionJids || [] }
+        });
+        console.log(chalk.red(`👑 Poză trimisă către ${chatId}.`));
+      }
+    } catch (error) {
+      console.error(chalk.red(`⇌ Eroare la trimiterea către ${chatId}:`), error);
+      console.log(chalk.red("⏳ Aștept revenirea internetului..."));
+      await waitForInternet();
+      console.log(chalk.red("Reinitializing connection..."));
+      return;
+    }
+    await delay(session.delay);
+    session = activeSessions[chatId];
+  }
+  if (activeSessions[chatId]) {
+    delete activeSessions[chatId];
+    console.log(chalk.red(`Sesiunea pentru ${chatId} s-a încheiat.`));
+  }
+}
+
+// Reluarea tuturor sesiunilor active după reconectare
+function resumeActiveSessions(sock) {
+  for (const chatId in activeSessions) {
+    if (activeSessions[chatId].running) {
+      console.log(chalk.red(`Reluăm trimiterea în conversația ${chatId}...`));
+      sendLoop(chatId, sock);
+    }
+  }
+}
+
+// Setăm ascultătorul pentru mesajele primite – se procesează doar comenzile (cele trimise de tine)
+function setupCommands(sock) {
+  sock.ev.on("messages.upsert", async (up) => {
+    if (!up.messages) return;
+    for (const msg of up.messages) {
+      if (!msg.message) continue;
+      if (!msg.key.fromMe) continue;
+      
+      const chatId = msg.key.remoteJid;
+      let text = msg.message.conversation ||
+                 (msg.message.extendedTextMessage && msg.message.extendedTextMessage.text);
+      if (!text) continue;
+      text = text.trim();
+
+      // Comanda /stopgroupname – oprește loop-ul de schimbare nume
+      if (text.toLowerCase() === "/stopgroupname") {
+        if (activeNameLoops[chatId]) {
+          activeNameLoops[chatId].running = false;
+          delete activeNameLoops[chatId];
+          console.log(chalk.red(`[GroupNameLoop] S-a oprit loop-ul de schimbare nume pentru grupul ${chatId}`));
+        } else {
+          console.log(chalk.red("Nu există niciun loop activ pentru schimbarea numelui în acest chat."));
+        }
+        continue;
+      }
+
+      // Comanda /groupnameNP – inițierea loop-ului de schimbare a numelui grupului
+      if (text.toLowerCase().startsWith("/groupname")) {
+        const regex = /^\/groupname(\d+)\s+(.+)$/i;
+        const match = text.match(regex);
+        if (match) {
+          const delaySeconds = parseInt(match[1], 10);
+          const namesString = match[2].trim();
+          const groupNames = namesString.split(",").map(name => name.trim()).filter(name => name.length > 0);
+          if (groupNames.length === 0) {
+            console.log(chalk.red("Nu ai specificat niciun nume valid pentru grup."));
+            continue;
+          }
+          activeNameLoops[chatId] = {
+            running: true,
+            delay: delaySeconds * 1000,
+            groupNames: groupNames,
+            currentIndex: 0
+          };
+          console.log(chalk.red(`[GroupNameLoop] Grupul ${chatId} va fi actualizat secvențial cu următoarele nume: ${groupNames.join(", ")} la interval de ${delaySeconds} secunde.`));
+          groupNameLoop(chatId, sock);
+        } else {
+          console.log(chalk.red("Format invalid pentru comanda /groupname. Exemplu: /groupname10 Grupul Tău, Grupul de firme, Grupul Rompetrol, Grupul Lui"));
+        }
+        continue;
+      }
+
+      // *** NOU: Comanda /kick ***
+      if (text.toLowerCase().startsWith("/kick")) {
+        if (!chatId.endsWith("@g.us")) {
+          console.log(chalk.red("Comanda /kick este disponibilă doar în grupuri!"));
+          continue;
+        }
+        const tokens = text.split(/\s+/);
+        let participantsToKick = [];
+        if (tokens.slice(1).some((token) => token.toLowerCase() === "@all")) {
+          try {
+            const metadata = await sock.groupMetadata(chatId);
+            const toKick = metadata.participants.map((p) => p.id).filter((id) => id !== global.owner);
+            participantsToKick = toKick;
+          } catch (error) {
+            console.error(chalk.red("Eroare la extragerea membrilor grupului pentru comanda /kick @all:"), error);
+            continue;
+          }
+        } else {
+          for (const token of tokens.slice(1)) {
+            if (token.startsWith("@")) {
+              let jid = token.substring(1);
+              if (!jid.includes("@")) {
+                jid = jid + "@s.whatsapp.net";
+              }
+              participantsToKick.push(jid);
+            }
+          }
+        }
+        if (participantsToKick.length === 0) {
+          console.log(chalk.red("Nu ai furnizat niciun participant valid pentru comanda /kick."));
+          continue;
+        }
+        try {
+          await sock.groupParticipantsUpdate(chatId, participantsToKick, 'remove');
+          console.log(chalk.red(`Comanda /kick executată: au fost eliminați participanții: ${participantsToKick.join(", ")}`));
+        } catch (error) {
+          console.error(chalk.red("Eroare la executarea comenzii /kick:"), error);
+        }
+        continue;
+      }
+
+      // *** NOU: Comanda /add ***
+      if (text.toLowerCase().startsWith("/add")) {
+        if (!chatId.endsWith("@g.us")) {
+          console.log(chalk.red("Comanda /add este disponibilă doar în grupuri!"));
+          continue;
+        }
+        const tokens = text.split(/\s+/);
+        if (tokens.length < 2) {
+          console.log(chalk.red("Nu ai specificat niciun participant pentru /add."));
+          continue;
+        }
+        let participantsToAdd = [];
+        for (const token of tokens.slice(1)) {
+          if (token.startsWith("@")) {
+            let jid = token.substring(1);
+            if (!jid.includes("@")) {
+              jid = jid + "@s.whatsapp.net";
+            }
+            participantsToAdd.push(jid);
+          }
+        }
+        if (participantsToAdd.length === 0) {
+          console.log(chalk.red("Nu ai furnizat niciun participant valid pentru /add."));
+          continue;
+        }
+        try {
+          await sock.groupParticipantsUpdate(chatId, participantsToAdd, 'add');
+          console.log(chalk.red(`Comanda /add executată: participanții adăugați sunt: ${participantsToAdd.join(", ")}`));
+        } catch (error) {
+          console.error(chalk.red("Eroare la executarea comenzii /add:"), error);
+        }
+        continue;
+      }
+
+      // Procesarea celorlalte comenzi care încep cu "/"
+      if (!text.startsWith("/")) continue;
+      if (text.toLowerCase() === "/stop") {
+        handleStopCommand(chatId);
+      } else if (text.toLowerCase().startsWith("/start")) {
+        const regex = /^\/start(\d*)\s*(.*)$/i;
+        const match = text.match(regex);
+        if (match) {
+          const delayDigits = match[1];
+          const remainder = match[2].trim();
+          const delayValue = delayDigits ? parseInt(delayDigits, 10) * 1000 : global.botConfig.defaultDelay;
+          let mentionJids = [];
+          if (remainder) {
+            if (remainder.toLowerCase() === "@all") {
+              if (chatId.endsWith("@g.us")) {
+                try {
+                  const metadata = await sock.groupMetadata(chatId);
+                  if (metadata && metadata.participants) {
+                    mentionJids = metadata.participants.map((participant) => participant.id);
+                  }
+                } catch (error) {
+                  console.error(chalk.red("Eroare la extragerea membrilor grupului:"), error);
+                }
+              } else {
+                console.log(chalk.red("Comanda @all este disponibilă doar în grupuri!"));
+              }
+            } else {
+              const tokens = remainder.split(/\s+/);
+              tokens.forEach((token) => {
+                if (token.startsWith("@")) {
+                  let jid = token.substring(1);
+                  if (!jid.includes("@")) {
+                    jid = jid + "@s.whatsapp.net";
+                  }
+                  mentionJids.push(jid);
+                }
+              });
+            }
+          }
+          handleStartCommand(chatId, delayValue, mentionJids, sock);
+        }
+      }
+    }
+  });
+}
+
+// Configurarea inițială: se alege tipul de conținut (mesaje/poze) și se încarcă fișierul corespunzător
+async function initializeBotConfig(sock) {
+  if (!global.botConfig.sendType) {
+    let sendType = await askQuestion("Ce vrei să trimiți? (mesaje/poze): ");
+    sendType = sendType.toLowerCase();
+    if (sendType !== "mesaje" && sendType !== "poze") {
+      console.log(chalk.red("Opțiune invalidă!"));
+      process.exit(1);
+    }
+    global.botConfig.sendType = sendType;
+    if (sendType === "mesaje") {
+      const textPath = await askQuestion("Enter your text path here: ");
+      if (!fs.existsSync(textPath)) {
+        console.error(chalk.red("⛔ Fișierul text nu există!"));
+        process.exit(1);
+      }
+      const fileContent = fs.readFileSync(textPath, "utf8");
+      const messages = fileContent.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
+      global.botConfig.messages = messages;
+    } else if (sendType === "poze") {
+      const photoPath = await askQuestion("Enter file path for photo: ");
+      if (!fs.existsSync(photoPath)) {
+        console.error(chalk.red("⛔ Fișierul foto nu există!"));
+        process.exit(1);
+      }
+      global.botConfig.photoBuffer = fs.readFileSync(photoPath);
+      global.botConfig.photoCaption = await askQuestion("Enter caption (optional): ");
+    }
+    global.botConfig.defaultDelay = 5000;
+    console.log(chalk.red("\n✔ Configurare finalizată. Așteptăm comenzile tale (/start, /stop, /groupname, /stopgroupname, /kick, /add) în orice chat."));
+  }
+  setupCommands(sock);
+  resumeActiveSessions(sock);
+}
+
+// Inițializarea conexiunii și configurarea botului
+async function startBot() {
+  console.log(chalk.red("🔍 Pornire bot WhatsApp..."));
+  
+  // MENIU: Alege metoda de conectare
+  console.log(chalk.red("=============================="));
+  console.log(chalk.red("   Alege metoda de conectare:"));
+  console.log(chalk.red("   1. Cod de asociere"));
+  console.log(chalk.red("   2. Cod QR"));
+  console.log(chalk.red("=============================="));
+  const connectionChoice = await askQuestion("Introdu numărul metodei (1 sau 2): ");
+  
+  const { state, saveCreds } = await useMultiFileAuthState("./auth_info");
+  let sock;
+  
+  if (connectionChoice === "1") {
+    // Metoda pairing code
+    sock = makeWASocket({
+      auth: state,
+      logger: Pino({ level: "silent" }),
+      connectTimeoutMs: 60000
+    });
+    if (!sock.authState.creds.registered) {
+      const phoneNumber = await askQuestion("Enter your Phone number for pairing (ex. 40748427351): ");
+      console.log(chalk.red(`This is your Phone number: ${phoneNumber}`));
+      global.owner = normalizeJid(phoneNumber.includes("@") ? phoneNumber : `${phoneNumber}@s.whatsapp.net`);
+      console.log(chalk.red(`Owner set to: ${global.owner}`));
+      try {
+        const pairingCode = await sock.requestPairingCode(phoneNumber);
+        if (pairingCode) {
+          console.log(chalk.red(`This is your pairing code: ${pairingCode}`));
+          console.log(chalk.red("Open WhatsApp and enter this code in the linked device."));
+        } else {
+          console.error(chalk.red("Pairing code was not generated. Please check your network and try again."));
+        }
+      } catch (error) {
+        console.error(chalk.red("Error generating pairing code:"), error);
+      }
+    } else {
+      if (!global.owner) {
+        global.owner = sock.user && sock.user.id ? normalizeJid(sock.user.id) : "unknown";
+        console.log(chalk.red(`Owner is already set to: ${global.owner}`));
+      }
+      console.log(chalk.red("✔ Already connected!"));
+    }
+  } else if (connectionChoice === "2") {
+    // Metoda QR Code
+    sock = makeWASocket({
+      auth: state,
+      logger: Pino({ level: "silent" }),
+      connectTimeoutMs: 60000,
+      printQRInTerminal: false
+    });
+    sock.ev.on("connection.update", (update) => {
+      if (update.qr) {
+        console.clear();
+        console.log(chalk.red("\nScanează codul QR afișat mai jos cu telefonul tău (WhatsApp > Linked Devices > Link a Device):\n"));
+        qrcode.generate(update.qr, { small: true });
+      }
+    });
+  } else {
+    console.log(chalk.red("Opțiune invalidă! Rulează din nou scriptul."));
+    process.exit(1);
+  }
+
+  sock.ev.on("connection.update", async (update) => {
+    const { connection, lastDisconnect } = update;
+    if (connection === "open") {
+      console.log(chalk.red("✔ Conectat la WhatsApp!"));
+      if (global.botConfig.sendType) {
+        setupCommands(sock);
+        resumeActiveSessions(sock);
+      } else {
+        await initializeBotConfig(sock);
+      }
+    } else if (connection === "close") {
+      console.log(chalk.red("⏳ Conexiunea a fost pierdută."));
+      const reason = lastDisconnect?.error?.output?.statusCode;
+      if (reason !== DisconnectReason.loggedOut) {
+        await waitForInternet();
+        await startBot();
+      } else {
+        console.log(chalk.red("⇌ Deconectare definitivă. Restart manual necesar."));
+        process.exit(1);
+      }
+    }
+  });
+  sock.ev.on("creds.update", saveCreds);
+}
+
+// Prevenim oprirea scriptului la erori neprevăzute
+process.on("uncaughtException", () => {});
+process.on("unhandledRejection", () => {});
+
+// Pornim botul
+startBot();
