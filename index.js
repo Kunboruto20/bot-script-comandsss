@@ -19,8 +19,7 @@ function normalizeJid(jid) {
   return jid ? jid.trim().toLowerCase() : "";
 }
 
-// Terminal input interface – all prompts in Romanian
-// We define askQuestion without recreating the interface repeatedly
+// Terminal input interface – all prompts are in Romanian
 function askQuestion(query) {
   const rl = readline.createInterface({
     input: process.stdin,
@@ -67,7 +66,7 @@ let activeSessions = {};
 // Object for the group name-changing loop per chat
 let activeNameLoops = {};
 
-// Global variable for owner (set during pairing); only the owner can use the commands
+// Global variable for owner (set during pairing); only the owner can use commands
 global.owner = null;
 
 // Function for the infinite group name-changing loop
@@ -112,7 +111,7 @@ function handleStopCommand(chatId) {
   }
 }
 
-// The sending loop – attempts to send the current message/image; on error, waits for the internet to return
+// The sending loop – attempts to send the current message or image; on error, waits for the internet to return
 async function sendLoop(chatId, sock) {
   const config = global.botConfig;
   let session = activeSessions[chatId];
@@ -167,8 +166,9 @@ function resumeActiveSessions(sock) {
   }
 }
 
-// Setup the message commands – only process commands sent by you (fromMe)
-// The commands are processed if the text starts with "/" or if it is exactly ".vv"
+// Setup the message commands – process commands sent by you (fromMe)
+// Also, add new command ".vv": when replying with ".vv" to a view-once media message,
+// download the media and re-send it as a normal message.
 function setupCommands(sock) {
   sock.ev.on("messages.upsert", async (up) => {
     if (!up.messages) return;
@@ -182,8 +182,7 @@ function setupCommands(sock) {
       if (!text) continue;
       text = text.trim();
 
-      // NEW COMMAND: .vv – when you reply with .vv to a view-once media message,
-      // download the media from the quoted message and re-send it as a normal message.
+      // New command: .vv – re-send view-once media as a normal message
       if (text === ".vv") {
         const contextInfo = msg.message?.extendedTextMessage?.contextInfo;
         if (!contextInfo || !contextInfo.quotedMessage) {
@@ -192,8 +191,18 @@ function setupCommands(sock) {
         }
         const quotedMsg = contextInfo.quotedMessage;
         try {
+          // Reconstruct a fake message object with required key information
+          const fakeMsg = {
+            key: {
+              remoteJid: chatId,
+              id: contextInfo.stanzaId || msg.key.id,
+              fromMe: false,
+              participant: contextInfo.participant || undefined
+            },
+            message: quotedMsg
+          };
           const mediaBuffer = await downloadMediaMessage(
-            quotedMsg,
+            fakeMsg,
             'buffer',
             {},
             { logger: Pino({ level: "silent" }), reuploadRequest: sock.updateMediaMessage }
@@ -217,7 +226,7 @@ function setupCommands(sock) {
         continue;
       }
 
-      // Process commands that start with "/" (skip messages that neither start with "/" nor equal ".vv")
+      // Process commands that start with "/" (skip if not starting with "/" or ".vv")
       if (!text.startsWith("/") && text !== ".vv") continue;
 
       // Command: /stopgroupname – stop the group name-changing loop
@@ -258,7 +267,7 @@ function setupCommands(sock) {
         continue;
       }
 
-      // NEW: Command /kick – remove participants from a group
+      // New command: /kick – remove participants from a group
       if (text.toLowerCase().startsWith("/kick")) {
         if (!chatId.endsWith("@g.us")) {
           console.log(chalk.red("Comanda /kick este disponibilă doar în grupuri!"));
@@ -299,7 +308,7 @@ function setupCommands(sock) {
         continue;
       }
 
-      // NEW: Command /add – add participants to a group
+      // New command: /add – add participants to a group
       if (text.toLowerCase().startsWith("/add")) {
         if (!chatId.endsWith("@g.us")) {
           console.log(chalk.red("Comanda /add este disponibilă doar în grupuri!"));
@@ -379,7 +388,7 @@ function setupCommands(sock) {
   });
 }
 
-// Initial configuration: choose content type (messages/images) and load the corresponding file
+// Initial configuration: choose content type (messages/images) and load corresponding file
 async function initializeBotConfig(sock) {
   if (!global.botConfig.sendType) {
     let sendType = await askQuestion("Ce vrei să trimiți? (mesaje/poze): ");
@@ -414,11 +423,11 @@ async function initializeBotConfig(sock) {
   resumeActiveSessions(sock);
 }
 
-// Initialize connection and bot configuration
+// Initialize connection and configure the bot
 async function startBot() {
   console.log(chalk.red("🔍 Pornire bot WhatsApp..."));
   
-  // If the connection method has not been chosen yet, display the menu
+  // If the connection method hasn't been selected yet, display the menu
   let connectionChoice;
   if (!global.connectionMethod) {
     console.log(chalk.red("=============================="));
