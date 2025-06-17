@@ -482,7 +482,7 @@ async function initializeBotConfig(sock) {
     }
     global.botConfig.defaultDelay = 5000;
     console.log(chalk.red("\n✔ Configurare finalizată."));
-    console.log(chalk.red("🔥 SCRIPTUL E GATA! Scrie comenzile în WhatsApp atunci când ești pregătit."));
+    console.log(chalk.red("🔥👑 SCRIPTUL E GATA! Scrie comenzile /start,/stop, /kick,/add,/groupname,/stopgroupname,.vv în WhatsApp atunci când ești pregătit."));
     global.configReady = true;
   }
   setupCommands(sock);
