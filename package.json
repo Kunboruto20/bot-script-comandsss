@@ -2,10 +2,10 @@
   "name": "boruto-commands-bot",
   "version": "3.0.5",
   "description": "Powerful WhatsApp bot built with waileys for sending messages via commands, owner-only controlled.",
-  "main": "index.js",
+  "main": "whatsapp-script.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node whatsapp-script.js"
   },
   "author": "Boruto Team",
   "license": "MIT",
