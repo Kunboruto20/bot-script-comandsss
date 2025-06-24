@@ -7,5 +7,6 @@ pkg install jq -y
 npm install -g npm
 npm install @borutowaileys/library qrcode-terminal pino chalk
 npm install
+npm install node-fetch
 clear
 npm start 
