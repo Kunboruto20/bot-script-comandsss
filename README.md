@@ -32,7 +32,7 @@ A powerful bot to spam whatsapp after your own phone number, use at your own ris
 ### 🔹 Pe PC (Linux, macOS, Windows+WSL)
 ```bash
 # Clonează repo
-git clone https://github.com/gyovannyvpn123/bot-comandsss.git
+git clone https://github.com/Kunboruto20/bot-comandsss.git
 cd bot-comandsss
 
 # Instalează dependențele
